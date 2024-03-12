@@ -1,9 +1,0 @@
-site_name: OpenTelemetry Demo Documentation
-
-nav:
-  - Home: index.md
-
-plugins:
-  - techdocs-core
-
-docs_dir: 'content/en/docs/demo'
