@@ -1,0 +1,7 @@
+site_name: Ad Service
+
+nav:
+  - Home: ad.md
+
+plugins:
+  - techdocs-core # required to style your docs like Backstage
