@@ -1,0 +1,7 @@
+site_name: product-catalog Service
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core # required to style your docs like Backstage
