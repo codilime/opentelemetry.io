@@ -9,7 +9,7 @@ for file in *.md; do
     mkdir -p "$filename/docs"
     
     # Copy a template YAML file to the new directory
-    sed "s/REPLACE/$filename/g" mkdocs.yaml > "$filename/mkdocs.yaml"
+    sed "s/REPLACE/$filename/g" mkdocs-tmpl.yaml > "$filename/mkdocs.yaml"
     
     # Move the markdown file into the nested docs directory
     mv "$file" "$filename/docs/index.md"
